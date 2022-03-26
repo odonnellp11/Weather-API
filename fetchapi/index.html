@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Fetch api</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- css style sheet-->
+    <link rel="stylesheet" href="main.css">
+    <!-- layout JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+    <script src="main.js" defer></script>
+
+</head>
+  <body>
+    <h1>--Rick & Morty API--</h1>
+    <section>
+        <form action="">
+            <div class="row">
+                <div class="col-auto name">
+                    <label for="name">Name</label>
+                    <input type="text" class="text" placeholder="Enter Name" id="name">
+                </div>
+                <div class="col-auto status">
+                    <label for="status">Vitality Status</label>
+                    <input type="text" class="text" placeholder="Dead or Alive?" id="status">
+                </div>
+                <button type="button" class="btn btn-primary" onclick="getData()">Get Info</button>
+            </div>
+        </form>
+        <!-- data elements -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Gender</th>
+                    <th scope="col">Species</th>
+                    <th scope="col">Origin</th>
+                    <th scope="col">image</th>
+                </tr>
+            </thead>
+            <tbody>
+               <tr>
+                   <th scope="row-0">1</th>
+                   <td id="name-0"></td>
+                   <td id="gender-0"></td>
+                   <td id="species-0"></td>
+                   <td id="origin-0"></td>
+                   <td id="image-0"></td>
+               </tr> 
+               <tr>
+                    <th scope="row-1">2</th>
+                    <td id="name-1"></td>
+                    <td id="gender-1"></td>
+                    <td id="species-1"></td>
+                    <td id="origin-1"></td>
+                    <td id="image-1"></td>
+                </tr> 
+                <tr>
+                    <th scope="row-2">3</th>
+                    <td id="name-2"></td>
+                    <td id="gender-2"></td>
+                    <td id="species-2"></td>
+                    <td id="origin-2"></td>
+                    <td id="image-2"></td>
+                </tr> 
+                <tr>
+                    <th scope="row-3">4</th>
+                    <td id="name-3"></td>
+                    <td id="gender-3"></td>
+                    <td id="species-3"></td>
+                    <td id="origin-3"></td>
+                    <td id="image-3"></td>
+                </tr> 
+                <tr>
+                    <th scope="row-4">5</th>
+                    <td id="name-4"></td>
+                    <td id="gender-4"></td>
+                    <td id="species-4"></td>
+                    <td id="origin-4"></td>
+                    <td id="image-4"></td>
+                </tr> 
+                <tr>
+                    <th scope="row-5">6</th>
+                    <td id="name-5"></td>
+                    <td id="gender-5"></td>
+                    <td id="species-5"></td>
+                    <td id="origin-5"></td>
+                    <td id="image-5"></td>
+                </tr> 
+                <tr>
+                    <th scope="row-6">7</th>
+                    <td id="name-6"></td>
+                    <td id="gender-6"></td>
+                    <td id="species-6"></td>
+                    <td id="origin-6"></td>
+                    <td id="image-6"></td>
+                </tr> 
+
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
